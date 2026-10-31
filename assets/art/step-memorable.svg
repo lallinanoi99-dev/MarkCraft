@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" preserveAspectRatio="xMidYMid slice"><defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="7"/></filter><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.25  0 0 0 0 0.16  0 0 0 0 0.08  0 0 0 0.55 0"/></filter><filter id="brush" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="turbulence" baseFrequency="0.02 0.18" numOctaves="2" seed="11" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="5"/></filter><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9CCBF2"/><stop offset="1" stop-color="#EAF3F9"/></linearGradient><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E7CC"/><stop offset="1" stop-color="#EBD2AC"/></linearGradient></defs>
+<rect width="500" height="420" fill="#ECC0FB"/>
+<g filter="url(#rough)">
+ <path d="M0 290h500v130H0Z" fill="#C57E2C"/>
+ <circle cx="250" cy="200" r="120" fill="#EF7B43"/>
+ <circle cx="250" cy="200" r="78" fill="#FBE890"/>
+ <path d="M250 150v100M200 200h100" stroke="#EF7B43" stroke-width="16" stroke-linecap="round"/>
+ <rect x="60" y="300" width="90" height="70" rx="6" fill="#FEFEF2" transform="rotate(-6 105 335)"/>
+ <rect x="350" y="296" width="90" height="70" rx="6" fill="#FEFEF2" transform="rotate(7 395 331)"/>
+ <path d="M80 330h50M80 345h36" stroke="#9A8F80" stroke-width="4" stroke-linecap="round" transform="rotate(-6 105 335)"/>
+ <path d="M370 324l40 26M410 324l-40 26" stroke="#A3401A" stroke-width="5" stroke-linecap="round" transform="rotate(7 395 331)"/>
+</g><rect width="100%" height="100%" filter="url(#grain)" opacity=".35" style="mix-blend-mode:multiply"/>
+</svg>

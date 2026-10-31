@@ -1,0 +1,47 @@
+{
+ "Inter": {
+  "400": "assets/fonts/inter-400.woff",
+  "700": "assets/fonts/inter-700.woff"
+ },
+ "Manrope": {
+  "400": "assets/fonts/manrope-400.woff",
+  "700": "assets/fonts/manrope-700.woff"
+ },
+ "Space Grotesk": {
+  "400": "assets/fonts/space-grotesk-400.woff",
+  "700": "assets/fonts/space-grotesk-700.woff"
+ },
+ "DM Serif Display": {
+  "400": "assets/fonts/dm-serif-display-400.woff"
+ },
+ "Playfair Display": {
+  "400": "assets/fonts/playfair-display-400.woff",
+  "700": "assets/fonts/playfair-display-700.woff"
+ },
+ "Fraunces": {
+  "400": "assets/fonts/fraunces-400.woff",
+  "700": "assets/fonts/fraunces-700.woff"
+ },
+ "Syne": {
+  "400": "assets/fonts/syne-400.woff",
+  "700": "assets/fonts/syne-700.woff"
+ },
+ "Outfit": {
+  "400": "assets/fonts/outfit-400.woff",
+  "700": "assets/fonts/outfit-700.woff"
+ },
+ "Sora": {
+  "400": "assets/fonts/sora-400.woff",
+  "700": "assets/fonts/sora-700.woff"
+ },
+ "Bricolage Grotesque": {
+  "400": "assets/fonts/bricolage-grotesque-400.woff",
+  "700": "assets/fonts/bricolage-grotesque-700.woff"
+ },
+ "Pacifico": {
+  "400": "assets/fonts/pacifico-400.woff"
+ },
+ "Archivo Black": {
+  "400": "assets/fonts/archivo-black-400.woff"
+ }
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice"><defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="7"/></filter><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.25  0 0 0 0 0.16  0 0 0 0 0.08  0 0 0 0.55 0"/></filter><filter id="brush" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="turbulence" baseFrequency="0.02 0.18" numOctaves="2" seed="11" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="5"/></filter><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9CCBF2"/><stop offset="1" stop-color="#EAF3F9"/></linearGradient><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E7CC"/><stop offset="1" stop-color="#EBD2AC"/></linearGradient></defs>
+<rect width="800" height="900" fill="url(#wall)"/>
+<g filter="url(#rough)">
+ <!-- arches -->
+ <path d="M70 560V250a120 120 0 0 1 240 0v310Z" fill="#E2C9A2"/>
+ <path d="M90 560V255a100 100 0 0 1 200 0v305Z" fill="url(#sky)"/>
+ <path d="M490 560V250a120 120 0 0 1 240 0v310Z" fill="#E2C9A2"/>
+ <path d="M510 560V255a100 100 0 0 1 200 0v305Z" fill="url(#sky)"/>
+ <circle cx="235" cy="300" r="38" fill="#FBE890"/>
+ <path d="M90 470q60-60 120-20t80-10v120H90Z" fill="#8DB07A"/>
+ <path d="M90 510q70-40 140-10t60 0v60H90Z" fill="#5E8A55"/>
+ <path d="M510 460q50-40 100-10t100-20v130H510Z" fill="#8DB07A"/>
+ <path d="M510 505q60-35 120-5t80-10v65H510Z" fill="#3D6146"/>
+ <path d="M560 300q20-14 40 0q20-14 40 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+ <path d="M150 340q12-8 24 0q12-8 24 0" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+ <!-- big logo frame -->
+ <rect x="318" y="150" width="164" height="190" rx="6" fill="#FEFEF2" stroke="#C57E2C" stroke-width="10"/>
+ <circle cx="400" cy="230" r="52" fill="#EF7B43"/>
+ <path d="M400 262c-26-12-30-44-6-70 22 22 30 54 6 70Z" fill="#FEFEF2"/>
+ <path d="M400 262v-50" stroke="#EF7B43" stroke-width="5" stroke-linecap="round"/>
+ <rect x="352" y="300" width="96" height="10" rx="5" fill="#4A2308"/>
+ <rect x="370" y="318" width="60" height="6" rx="3" fill="#C57E2C"/>
+ <!-- sunlight -->
+ <path d="M90 560 290 560 420 900 0 900 0 700Z" fill="#FFF6C9" opacity=".45"/>
+ <path d="M510 560 710 560 800 760 800 900 640 900Z" fill="#FFF6C9" opacity=".35"/>
+ <!-- floor -->
+ <path d="M0 620H800V900H0Z" fill="#D9B58A"/>
+ <path d="M0 620H800" stroke="#B88E5E" stroke-width="6"/>
+ <!-- desk -->
+ <rect x="60" y="600" width="680" height="34" rx="6" fill="#C57E2C"/>
+ <rect x="60" y="626" width="680" height="12" fill="#9A5E1E"/>
+ <rect x="100" y="636" width="22" height="240" fill="#5A2A0C"/>
+ <rect x="678" y="636" width="22" height="240" fill="#5A2A0C"/>
+ <!-- books stack -->
+ <rect x="96" y="560" width="190" height="20" rx="3" fill="#E6ADFA"/>
+ <rect x="104" y="540" width="176" height="22" rx="3" fill="#3D6146"/>
+ <rect x="92" y="580" width="198" height="22" rx="3" fill="#F1D660"/>
+ <rect x="112" y="520" width="160" height="20" rx="3" fill="#B3D7F6"/>
+ <!-- open sketchbook -->
+ <path d="M320 600 330 520q70-14 76 10q6-24 76-10l10 80Z" fill="#FEFEF2" stroke="#4A2308" stroke-width="3"/>
+ <path d="M406 530v68" stroke="#4A2308" stroke-width="2"/>
+ <circle cx="366" cy="560" r="18" fill="none" stroke="#777" stroke-width="2"/>
+ <path d="M352 568q14-30 28-2" fill="none" stroke="#EF7B43" stroke-width="3"/>
+ <path d="M424 548h46M424 560h38M424 572h44" stroke="#9A8F80" stroke-width="2" stroke-linecap="round"/>
+ <!-- pencil cup -->
+ <rect x="560" y="530" width="64" height="72" rx="8" fill="#274F31"/>
+ <rect x="574" y="456" width="9" height="82" fill="#EF7B43" transform="rotate(-10 578 500)"/>
+ <rect x="588" y="448" width="9" height="90" fill="#F1D660"/>
+ <rect x="602" y="462" width="9" height="78" fill="#B3D7F6" transform="rotate(12 606 500)"/>
+ <path d="M576 452l4-12 5 12Z" fill="#4A2308" transform="rotate(-10 578 500)"/>
+ <path d="M588 448l4.5-14 4.5 14Z" fill="#4A2308"/>
+ <!-- plant -->
+ <path d="M660 540h64l-8 62h-48Z" fill="#C57E2C"/>
+ <path d="M692 540c-20-30-40-40-52-36 8 18 24 30 52 36Z" fill="#5E8A55"/>
+ <path d="M692 540c10-40 30-56 44-54-4 22-20 42-44 54Z" fill="#3D6146"/>
+ <path d="M692 540c-4-44 4-70 14-76 6 26 2 52-14 76Z" fill="#8DB07A"/>
+ <!-- loose sheets on floor -->
+ <rect x="230" y="760" width="120" height="80" rx="4" fill="#FEFEF2" transform="rotate(-8 290 800)"/>
+ <circle cx="280" cy="796" r="16" fill="#E6ADFA" transform="rotate(-8 290 800)"/>
+ <rect x="420" y="790" width="110" height="70" rx="4" fill="#FEFEF2" transform="rotate(6 475 825)"/>
+ <path d="M440 820l20-20 20 20 20-20" fill="none" stroke="#3D6146" stroke-width="4" transform="rotate(6 475 825)"/>
+</g>
+<g filter="url(#brush)" opacity=".22"><path d="M0 120q200 30 400 0t400 10" stroke="#C57E2C" stroke-width="30" fill="none"/><path d="M0 680q300 -20 800 10" stroke="#fff" stroke-width="18" fill="none"/></g>
+<rect width="100%" height="100%" filter="url(#grain)" opacity=".35" style="mix-blend-mode:multiply"/>
+</svg>

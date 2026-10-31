@@ -1,0 +1,11 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Markcraft</title>
+<script>
+  // GitHub Pages: turn /verify?claim=24 (or /create, /edit, /mine) into the in-app route #/verify?claim=24
+  (function () {
+    var base = location.pathname.replace(/\/(verify|create|edit|mine)\/?$/, "/");
+    var route = (location.pathname.match(/\/(verify|create|edit|mine)\/?$/) || [])[1];
+    location.replace(base + (route ? "#/" + route + location.search : ""));
+  })();
+</script>

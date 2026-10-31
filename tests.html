@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Markcraft SVG tests</title>
+<style>
+  body { font: 15px/1.5 system-ui, sans-serif; margin: 24px; background: #F8F7F5; color: #1A1A1A; }
+  table { border-collapse: collapse; width: 100%; background: #fff; }
+  td, th { border-bottom: 1px solid #eee; padding: 8px 10px; text-align: left; vertical-align: top; }
+  .pass { color: #1E5B32; font-weight: 600; } .fail { color: #B42318; font-weight: 600; }
+  code { font-size: 12px; word-break: break-all; }
+</style>
+</head>
+<body>
+<h1>SVG check &amp; clean — tests</h1>
+<p id="sum">Running…</p>
+<table><thead><tr><th>Case</th><th>Expect</th><th>Got</th><th>Result</th></tr></thead><tbody id="rows"></tbody></table>
+<script type="module" src="tests.js"></script>
+</body>
+</html>
